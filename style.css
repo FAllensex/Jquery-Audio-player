@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background: silver;
+}
+.wrapper{
+    height: 55.6em;
+    width: 100%;
+    background: silver;
+    display: flex;
+    justify-content: center;
+}
+.card{
+position: absolute;
+width: 541px;
+height: 488px;
+background: #3E3E3E;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+align-self: center;
+justify-content: center;
+justify-self: center;
+display: flex;
+}
+.card img{
+position: absolute;
+width: 320px;
+height: 264px;
+justify-self: center;
+margin-top: 1cm;
+}
+.card button{
+position: absolute;
+width: 57px;
+height: 53px;
+background: #C4C4C4;
+justify-self: center;
+align-self: center;
+}
+.card h2{
+    position: absolute;
+    text-align: center;
+    padding-top: 8.5cm;
+    color: white;
+    font-family: 'Zen Dots', cursive;
+    letter-spacing: 8px;
+}
+.play{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #fefefe;
+    margin-top: 8cm;
+    font-size:22px;
+}
+#pre{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #fefefe;
+    margin-top: 8cm;
+    font-size:22px;
+    margin-right: 10.5cm;
+}
+#for{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #fefefe;
+    margin-top: 8cm;
+    font-size:22px;
+    margin-left: 10.5cm;
+}
+audio{
+    margin-top: 10cm;
+}
+p{
+    color: rgb(0, 0, 0);
+    
+}
+/**
+ * 
+ *  RESPONSIVE  
+ */
+@media screen and (max-width: 600px) {
+   .card{
+    width: 300px;
+    height: 600px;
+   }
+   #for,#pre{
+       margin-top: 12cm;
+
+   }
+   #for{
+       margin-left: 3cm;
+   }
+   #pre{
+       margin-right: 2cm;
+   }
+   .card img{
+    width: 200px;
+    height: 164px;
+    margin-top: 2cm;
+   }
+   audio{
+    margin-top: 11cm;
+   }
+  }
+  
